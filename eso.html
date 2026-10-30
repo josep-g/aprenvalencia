@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESO · Aprén valencià</title>
+  <meta name="description" content="ESO: materials per a aprendre valencià.">
+  <meta name="author" content="Josep Gregori Soler">
+  <link rel="icon" href="imatges/icona.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estil.css">
+</head>
+<body>
+  <a class="salta" href="#contingut">Salta al contingut</a>
+  <header class="capcalera">
+    <div class="contenidor">
+      <a class="marca" href="index.html"><svg width="34" height="28" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2Zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Z"/><path d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/></svg><span>Aprén valencià</span></a>
+      <nav class="navegacio" aria-label="Seccions"><ul><li><a href="index.html">Inici</a></li><li><a href="nouvinguts.html">Nouvinguts</a></li><li><a href="eso.html" aria-current="page">ESO</a></li><li><a href="batxillerat.html">Batxillerat</a></li><li><a href="ens-enfonsem.html">Ens enfonsem</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="contingut" data-seccio="eso">
+    <div class="contenidor">
+      <div class="titol-pagina">
+        <h1>ESO</h1>
+        <p>Recursos per a treballar aspectes del currículum de l'ESO.</p>
+      </div>
+      <div class="cercador">
+        <label class="salta" for="cerca">Cerca</label>
+        <input type="search" id="cerca" placeholder="Cerca per tema, nivell o tipus de material…" autocomplete="off">
+        <span class="recompte" id="recompte" aria-live="polite"></span>
+      </div>
+      <div class="recursos" id="llista-recursos"></div>
+      <h2>Eines per a tots els nivells</h2>
+      <div class="recursos" id="llista-eines"></div>
+    </div>
+  </main>
+  <footer class="peu">
+    <div class="contenidor">
+      <div>
+        <h2>Materials</h2>
+        <ul>
+          <li><a href="nouvinguts.html">Nouvinguts</a></li>
+          <li><a href="eso.html">ESO</a></li>
+          <li><a href="batxillerat.html">Batxillerat</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Projecte</h2>
+        <ul>
+          <li><a href="ens-enfonsem.html">Ens enfonsem</a></li>
+          <li><a href="quaderns-oral.html">Quaderns del valencià oral</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Qui som?</h2>
+        <p style="margin:0">Web del professorat de Valencià de Josep Gregori Soler. Si trobeu un enllaç trencat o voleu proposar un recurs, escriviu-nos.</p>
+      </div>
+      <p class="credits">© 2022–2026 Josep Gregori Soler · Els materials enllaçats són propietat de les seues autories i entitats.</p>
+    </div>
+  </footer>
+  <script src="js/recursos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
