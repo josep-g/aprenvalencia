@@ -70,7 +70,7 @@ o l'arrel que us indique el servei) amb un client SFTP com FileZilla o Cyberduck
 
 ## Pendent
 
-- [ ] Copiar els 14 PDF del Quadern de valencià oral a `vo/` (no eren a la carpeta original).
+- [x] PDF del Quadern de valencià oral rescatats de la Wayback Machine (original: `ua.es/spv/formacio/oralpdf/`).
 - [ ] Omplir la pàgina **Ens enfonsem**.
 - [ ] Afegir materials propis a ESO i Batxillerat.
 - [ ] Revisar periòdicament els enllaços externs (les webs de la Generalitat canvien d'adreça sovint).

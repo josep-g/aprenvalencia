@@ -44,11 +44,11 @@ window.RECURSOS = [
   {
     seccio: "nouvinguts",
     titol: "Quaderns del valencià oral",
-    descripcio: "Materials d'autoaprenentatge de la Universitat d'Alacant: catorze unitats temàtiques (qui som, el cos, la casa, la cuina, el temps lliure…). Útils com a suport de gramàtica i expressió oral.",
+    descripcio: "Materials d'autoaprenentatge de la Universitat d'Alacant: catorze unitats temàtiques (qui som, el cos, la casa, la cuina, el temps lliure…) amb el vocabulari i les expressions bàsiques per a parlar de cada tema.",
     nivell: "A2-B1",
-    etiquetes: ["autoaprenentatge", "oral", "PDF"],
+    etiquetes: ["autoaprenentatge", "oral", "vocabulari", "PDF"],
     enllacos: [
-      { text: "Veure les unitats", url: "quaderns-oral.html" },
+      { text: "Veure les 14 unitats", url: "quaderns-oral.html" },
       { text: "Còpia arxivada", url: "https://web.archive.org/web/20120104060234/http://www.ua.es/spv/formacio/materials/materials_propis.html" }
     ],
     font: { text: "Universitat d'Alacant (SPV)", url: "https://web.archive.org/web/20120104060234/http://www.ua.es/spv/formacio/materials/materials_propis.html" }
